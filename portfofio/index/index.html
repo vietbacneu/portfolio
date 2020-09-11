@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Scrollspy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Muli" />
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <head>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <ul id="one">
+                        <li><img src="https://img.thuthuattinhoc.vn/uploads/2019/01/08/anh-anime-boy-dep-nhat_101905549.jpg "
+                                data-action="zoom" alt="avatar">
+                            <ul>
+                                <li style="font-family:Amiri,Georgia, serif">
+                                    <ul>
+                                        <li
+                                            style="font-family:Arial, Helvetica, sans-serif, serif; font-size: 25px; font-weight: 600;font-style:italic; color: rgba(255, 255, 255, 0.884); margin-top:30px;">
+                                            Nguyễn Việt Bắc</li>
+                                        <li
+                                            style="color: rgb(149, 149, 149) !important; font-size: 16px; margin-top: 20px;">
+                                            I’m selfish, impatient and a little insecure. I make mistakes, I am out of
+                                            control
+                                            and at times hard to handle. But if
+                                            you can’t handle me at my worst, then you sure as hell don’t deserve me at
+                                            my
+                                            best
+                                            :)
+                                        </li>
+                                        <li>
+                                            <img src="img1.png" alt="chữ ký" style="width:200px; margin-top: 0px;">
+                                        </li>
+                                    </ul>
+
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu" id="main-menu">
+                    <a class="menu-item active" href="#hero"><i class="fab fa-accusoft"></i> <span
+                            style="display: block;">
+                            About me </span></a>
+                    <a class="menu-item" href="#section-1"><i class="fa fa-briefcase" aria-hidden="true"
+                            style="font-size: 20px;"></i>
+                        <span style="display: block;">
+                            EXPERIENCE </span></a>
+                    <a class="menu-item" href="#section-2"><i class="fa fa-star" aria-hidden="true"
+                            style="font-size: 20px;"></i>
+
+                        <span style="display: block;">
+                            skills </span></a>
+                    <a class="menu-item" href="#section-3"><i class="fab fa-canadian-maple-leaf"></i> <span
+                            style="display: block;"> Style Of
+                            Me </span></a>
+                    <a class="menu-item" href="#section-4"><i class="fa fa-trophy" aria-hidden="true"
+                            style="font-size: 20px;"></i>
+                        <span style="display: block;"> award </span></a>
+                    <a class="menu-item" href="#section-5"><i class="fas fa-envelope-open-text"></i> <span
+                            style="display: block;"> Contact
+                        </span></a>
+
+                </div>
+            </div>
+        </nav>
+    </head>
+    <main>
+        <div class="section-all">
+            <section class="section scrollspy" id="hero">
+                <ul class="home-content1">
+                    <li> <i class="fas fa-map-marker-alt mr-1" style="color:rgb(111, 78, 59);    margin-left: 400px;
+        "></i> 56 ngo tu do, Tran
+                        Đai Nghia, Ha noi</li>
+                    <li><a href="https://mail.google.com/" title="gmail"> <i class="far fa-envelope mr-1"
+                                style="color:rgb(111, 78, 59) "></i> vietbacneu@gmail.com </a></li>
+                    <li><a href="https://www.facebook.com/" title="facebook">
+                            <i class="fa fa-facebook-square" aria-hidden="true" style="color:rgb(111, 78, 59) "></i>
+
+                            VietBac </a></li>
+                    <li> Hi! My name is Viet Bac, I'm a student at The National Economics University and Techmaster.
+                    </li>
+                    <div class="home-noidung">
+                        <div class="home-noidung1">
+                            <ul style="margin-left: 20px;">
+                                <li style="width: 95%"> Chào! Tên tôi là Việt Bắc, tôi là nhà thiết kế và quản trị hệ thống thông tin và
+                                    đang
+                                    học ở NEU. Tôi thích đọc truyện và làm những thứ hơi linh tinh một chút :)</li>
+                                <br><br>
+
+                                <li style=" text-align: center ; width: 95%;
+">Tôi đã đi một con đường rất điển hình, cả về cá nhân và chuyên môn. Tôi sinh ra và
+                                    lớn
+                                    lên ở Phú Thọ.
+                                    Tôi đã giỏi toán và khoa học từ khi còn nhỏ,
+                                    đang học và lấy bằng cử nhân về Quản lý hệ thống thông tin. Sau khi học trong lĩnh
+                                    vực
+                                    đó vài năm, tôi quyết định học thiết
+                                    kế và đã làm việc như một nhà thiết kế sản phẩm và nhà phát triển giao diện người
+                                    dùng
+                                    kể từ tháng 7 năm 2020.</li>
+                                <br>
+                                <br>
+
+                                <li style=" text-align: center ; width: 95%;
+">
+                                    Một trong những đặc điểm nổi bật nhất của việc trở thành một nhà thiết kế có nền
+                                    tảng kỹ sư là tôi không chỉ có thể xử
+                                    lý các khía cạnh đồ họa của một dự án mà tôi còn có thể hiểu đầy đủ, tham gia và
+                                    thậm chí lãnh đạo các khía cạnh kỹ
+                                    thuật của cùng các dự án đó.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="home-noidung2">
+                            <ul>
+                                <li> <img src="binh-minh (1).jpg" alt="ảnh bình minh"> </li>
+                                <li class="tt">Nguyễn Việt Bắc</li>
+                                <li class="tt1">DOB: September 17, 1999</li>
+                                <li class="tt1">Phone: 0352107912
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </ul>
+            </section>
+            <section class="section scrollspy" id="section-1" style="margin-top:0px;">
+                <ul class="ex-content">
+                    <li>EXPERIENCE</li>
+                    <li></li>
+                    <li>
+                        <div class="ex-content1">
+
+                            <div>
+                                <h1> <i class="fa fa-suitcase" aria-hidden="true"></i>
+                                    Kinh nghiệm làm việc</h1>
+
+                                <div>Hiện nay, tôi mới đang đi học và tràn đầy trong mình toàn lý thuyết là lý thuyết.
+                                    Tuy nhiên trong tương lai tôi sẽ của thể số lý thuyết mà tôi đa được học thành thực
+                                    tế :) và kiếm cơm để có thể sống một cuộc sống ổn định hehe!</div>
+                                <p style=" margin-top:30px;">Present....</p>
+                            </div>
+                            <div>
+                                <h1> <i class="fa fa-firefox" aria-hidden="true"></i>
+                                    Learning Font-end foundation at Techmaster</h1>
+                                <div> Tôi đang học ở Techmaster và một thời gian nữa sẽ hoàn thành khóa học. Ở đó t đã
+                                    học được và có kinh nghiệm trong
+                                    trong việc lập trình web và các kỹ năng bổ sung quanh việc lập trình :)</div>
+                                <p style=" margin-top:56px;">September 2020 - Present</p>
+                            </div>
+                            <div>
+                                <h1> <i class="fa fa-university" aria-hidden="true"></i>
+                                    Studying at the National Economics University </h1>
+                                <div>Hiện nay tôi đang học ở NEU, và cũng sắp ra trường. Ở đó t đã học được những kỹ
+                                    năng và có kinh nghiệm trong ngành học của tôi đó chính là ngành Informaiton
+                                    Management System. Cụ thể nếu bạn muốn biết hãy hỏi tôi :)</div>
+                                <p style=" margin-top:30px;">September 2017 - May 2021</p>
+                            </div>
+                            <div>
+                                <h1> <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                    Student at Hung Vuong High School </h1>
+                                <div> Học tại trường cấp 3 Hùng Vương ở đó ngoài mang lại rất nhiều kỷ niệm trong tôi
+                                    còn mang lại cho tôi nhiều
+                                    kiến thức, cũng như các kỹ năng mà tôi đã sử dụng cho đến hiện tại.
+                                </div>
+                                <p style=" margin-top:54px;">September 2014 - May 2017</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="section scrollspy" id="section-2" style="text-align:center">
+                <div>
+                    <div><img src="Không tiêu đề (5).png" alt="không" style="filter:grayscale(0.7);margin-top:20px;">
+                    </div>
+                    <div> <img src="dsBuffer.bmp.png" alt="skills" style="filter:grayscale(0.7)"> </div>
+                </div>
+            </section>
+            <section class="section scrollspy" id="section-3" style="text-align:center">
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)">
+                        Comic
+
+                    </span>
+                    <span class="dot" onclick="currentSlide(2)">league of legends</span>
+                    <span class="dot" onclick="currentSlide(3)">natural</span>
+                </div>
+                <div class="slideshow-container" style="margin-top:-50px">
+                    <div class="mySlides fade">
+                        <div class="gallery ">
+                            <div class="img"><img src="1.jpg" alt=""></div>
+                            <div class="img"><img src="2.jpg" alt=""></div>
+                            <div class="img"><img src="3.jpg" alt=""></div>
+                            <div class="img"><img src="4.jpg" alt=""></div>
+                            <div class="img"><img src="5.jpg" alt=""></div>
+                            <div class="img"><img src="6.jpg" alt=""></div>
+                            <div class="img"><img src="7.jpg" alt=""></div>
+                            <div class="img"><img src="8.jpg" alt=""></div>
+                            <div class="img"><img src="9.jpg" alt=""></div>
+                            <div class="img"><img src="10.jpg" alt=""></div>
+                            <div class="img"><img src="11.jpg" alt=""></div>
+                            <div class="img"><img src="12.jpg" alt=""></div>
+                            <div class="img"><img src="13.jpg" alt=""></div>
+                            <div class="img"><img src="14.jpg" alt=""></div>
+                            <div class="img"><img src="15.jpg" alt=""></div>
+                            <div class="img"><img src="16.jpg" alt=""></div>
+                            <div class="img"><img src="17.jpg" alt=""></div>
+                            <div class="img"><img src="18.jpg" alt=""></div>
+                            <div class="img"><img src="19.jpg" alt=""></div>
+                            <div class="img"><img src="20.jpg" alt=""></div>
+                            <div class="img"><img src="23.jpg" alt=""></div>
+                            <div class="img"><img src="24.jpg" alt=""></div>
+                            <div class="img"><img src="25.jpg" alt=""></div>
+                            <div class="img"><img src="26.jpg" alt=""></div>
+                            <div class="img"><img src="27.jpg" alt=""></div>
+                            <div class="img"><img src="28.jpg" alt=""></div>
+                            <div class="img"><img src="29.jpg" alt=""></div>
+                            <div class="img"><img src="30.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+
+                        <div class="gallery">
+                            <div class="img"><img src="../lol/1.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/2.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/3.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/4.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/5.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/6.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/7.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/8.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/9.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/10.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/11.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/12.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/13.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/14.jpg" alt=""></div>
+                            <div class="img"><img src="../lol/15.jpg" alt=""></div>
+
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="gallery ">
+                            <div class="img"><img src="../natural/1.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/2.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/3.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/4.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/5.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/6.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/7.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/8.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/9.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/10.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/11.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/12.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/13.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/14.jpg" alt=""></div>
+                            <div class="img"><img src="../natural/15.jpg" alt=""></div>
+                        </div>
+
+
+
+
+            </section>
+
+
+
+            <section class="section scrollspy" id="section-4">
+                <div class="row my-auto" >
+                    <div class="col-12" >
+                        <h2 class="text-center">Awards</h2>
+                        <div class="mb-5 heading-border"></div>
+                    </div>
+                    <div class="main-award" id="award-box">
+                        <div class="award">
+                            <div class="award-icon"></div>
+                            <div class="award-content">
+                                <span class="date">Sep 2017 - May 2021</span>
+                                <h5 class="title">Graduation From National Economics University</h5>
+                                <p class="description">
+                                    Là sinh viên khoa Informaiton Management System, đã tốt nghiệp với bằng giỏi có kiến
+                                    thức và kỹ năng về chuyên ngành đã học.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="award">
+                            <div class="award-icon"></div>
+                            <div class="award-content">
+                                <span class="date">July 2020 - Sep 2021</span>
+                                <h5 class="title"> Graduation From Foundation At Techmaster</h5>
+                                <p class="description">
+                                    Đã tốt nghiệp đào tạo font-end cơ bản của Techmaster có các kỹ năng cơ bản về web
+                                    như html, css, git ...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="section scrollspy" id="section-5">
+                <div class="contact">
+                    <div class="contact-content">
+                        <div>
+                            <ul>
+                                <li style=" font-size:30px;   text-transform: uppercase; font-weight: 600;">COntact Me</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis officia nostrum
+                                    nobis totam adipisci enim aspernatur ipsam! Repellat eos corporis, fugiat nisi iure
+                                    odit enim excepturi pariatur ipsa, numquam accusantium.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="FullName">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Subject">
+                            <input type="text">
+                            <button type="button">Send</button>
+
+                        </div>
+                    </div>
+                    <div class="contact-inf">
+                        <div class="contact-cont2">
+                            <div class="contact-add contact-box-desc">
+                                <h3><i class="fa fa-map-marker cl-atlantis fa-2x"></i> Address</h3>
+                                <p>56, Ngo Tu Do, TDN <br>
+                                    Hai Ba Trung, Ha Noi <br></p>
+                            </div>
+                            <div class="contact-phone contact-side-desc contact-box-desc">
+                                <h3><i class="fa fa-phone cl-atlantis fa-2x"></i> Phone</h3>
+                                <p>+84352107912 </p>
+                            </div>
+                            <div class="contact-mail contact-side-desc contact-box-desc">
+                                <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
+                                <address class="address-details-f">
+                                    Fax: 800 123 3456 <br>
+                                    Email: <a href="https://mail.google.com/mail/u/0/" class=""
+                                        style="text-decoration: none;color:#093aa3;">vietbacneu@gmail.com</a>
+                                </address>
+                                <ul class="list-inline social-icon-f top-data" style="margin-top:30px;">
+                                    <li style="display: inline-block; margin-right: 15px;"><a href="#"
+                                            target="_empty"><i class="fa top-social fa-facebook"
+                                                style="color: #4267b2; border-color:#4267b2; font-size: 30px;"></i></a>
+                                    </li>
+                                    <li style="display: inline-block; margin-right: 15px;"><a href="#"
+                                            target="_empty"><i class="fa top-social fa-twitter"
+                                                style="color: #4AB3F4; border-color:#4AB3F4; font-size: 30px;"></i></a>
+                                    </li>
+                                    <li style="display: inline-block;"><a href="#" target="_empty"><i
+                                                class="fa top-social fa-google-plus"
+                                                style="color: #e24343; border-color:#e24343; font-size: 30px;"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                                      <div style=" font-size:70px; margin-top:-100px; text-align:center;font-family: 'Dancing Script', cursive; color: rgba(49, 49, 49, 0.856);
+                                      "> Thanks!</div>
+
+                </div>
+
+
+            </section>
+
+        </div>
+
+
+
+
+    </main>
+
+    <script src="simple-scrollspy.min.js"></script>
+
+    <script>
+        window.onload = function () {
+            scrollSpy('#main-menu', {
+                sectionClass: '.scrollspy',
+                menuActiveTarget: '.menu-item',
+                offset: 100
+            })
+        }
+    </script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active1", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active1";
+        }
+
+    </script>
+
+</body>
+
+</html>
